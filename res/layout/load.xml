@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#34ADD8E6" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="30"
+        android:gravity="center"
+        android:src="@drawable/load1" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_weight="20"
+        android:textSize="15dp"
+        android:textStyle="bold|italic"
+        android:typeface="monospace"
+        android:text="@string/exp2_11" />
+
+    <LinearLayout
+        android:id="@+id/LinearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="50"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/LinearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="20"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/save_tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+				android:layout_marginRight="70dp"
+				android:layout_weight="5"
+                android:text="Storage1"
+                android:textStyle="italic"
+                android:typeface="monospace"
+                android:textColor="#993023ff" />
+
+            <Button
+                android:id="@+id/load_bt1"
+                android:layout_width="48dp"
+                android:layout_height="54dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="5"
+                android:background="@drawable/load_buttononoff"
+                android:visibility="visible" />
+
+             <Button
+                android:id="@+id/lodelete_bt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/delete_buttononoff"/>
+
+             <LinearLayout
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="70"
+                 android:orientation="vertical" >
+
+                 <TextView
+                     android:id="@+id/textView1"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="T"
+                     android:textSize="5dp"
+                     android:visibility="invisible" />
+             </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="20"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/save_tv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+				android:layout_marginRight="70dp"
+				android:layout_marginLeft="20dp"
+                android:text="Storage2"
+                android:textStyle="italic"
+                android:typeface="monospace"
+                android:layout_weight="5"
+                android:textColor="#993023ff" />
+
+            <Button
+                android:id="@+id/load_bt2"
+                android:layout_width="48dp"
+                android:layout_height="54dp"
+                android:background="@drawable/load_buttononoff"
+                android:layout_weight="5"
+                android:layout_marginRight="20dp"
+                android:visibility="visible" />
+             <Button
+                android:id="@+id/lodelete_bt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="5"
+                android:background="@drawable/delete_buttononoff"/>
+              <LinearLayout
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="70"
+                 android:orientation="vertical" >
+
+                 <TextView
+                     android:id="@+id/textView1"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="T"
+                     android:textSize="5dp"
+                     android:visibility="invisible" />
+             </LinearLayout>
+		</LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="20"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/save_tv3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="70dp"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="5"
+                android:text="Storage3"
+                android:textStyle="italic"
+                android:typeface="monospace"
+                android:textColor="#993023ff" />
+
+            <Button
+                android:id="@+id/load_bt3"
+                android:layout_width="48dp"
+                android:layout_height="54dp"
+                android:background="@drawable/load_buttononoff"
+                android:layout_marginRight="20dp"
+                android:layout_weight="5"
+                android:visibility="visible" />
+             <Button
+                android:id="@+id/lodelete_bt3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="5"
+                android:background="@drawable/delete_buttononoff"/>
+             <LinearLayout
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="70"
+                 android:orientation="vertical" >
+
+                 <TextView
+                     android:id="@+id/textView1"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="T"
+                     android:textSize="5dp"
+                     android:visibility="invisible" />
+             </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="20"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/save_tv4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="Storage4"
+                android:textStyle="italic"
+                android:typeface="monospace"
+                android:layout_weight="5"
+                android:textColor="#993023ff"
+                android:layout_marginRight="70dp" />
+
+            <Button
+                android:id="@+id/load_bt4"
+                android:layout_width="48dp"
+                android:layout_height="54dp"
+                android:background="@drawable/load_buttononoff"
+                android:layout_marginRight="20dp"
+                android:layout_weight="5"
+                android:visibility="visible" />
+             <Button
+                android:id="@+id/lodelete_bt4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/delete_buttononoff"/>
+             <LinearLayout
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="70"
+                 android:orientation="vertical" >
+
+                 <TextView
+                     android:id="@+id/textView1"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="T"
+                     android:textSize="5dp"
+                     android:visibility="invisible" />
+             </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="20"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/save_tv5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="Storage5"
+                android:textStyle="italic"
+                android:typeface="monospace"
+                android:layout_weight="5"
+                android:textColor="#993023ff"
+				android:layout_marginRight="70dp"/>
+
+            <Button
+                android:id="@+id/load_bt5"
+                android:layout_width="48dp"
+                android:layout_height="54dp"
+                android:background="@drawable/load_buttononoff"
+                android:layout_marginRight="20dp"
+                android:layout_weight="5"
+                android:visibility="visible" />
+             <Button
+                android:id="@+id/lodelete_bt5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="5"
+                android:background="@drawable/delete_buttononoff"/>
+             <LinearLayout
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="70"
+                 android:orientation="vertical" >
+
+                 <TextView
+                     android:id="@+id/textView1"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="T"
+                     android:textSize="5dp"
+                     android:visibility="invisible" />
+             </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

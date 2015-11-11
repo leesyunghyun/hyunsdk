@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#34ADD8E6" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon5"
+        android:layout_gravity="center" />
+
+     <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="경고!!!"
+        android:textStyle="italic|bold"
+        android:typeface="monospace"
+        android:layout_gravity="center"
+        android:textColor="#99ff0000" />
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="삭제한 데이터는 복구가 불가능합니다."
+        android:textStyle="italic"
+        android:typeface="monospace"
+        android:layout_gravity="center" />
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:typeface="monospace"
+        android:text="정말 삭제하시겠습니까?"
+        android:layout_gravity="center" />
+
+</LinearLayout>

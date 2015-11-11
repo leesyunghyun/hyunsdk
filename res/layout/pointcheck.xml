@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#34ADD8E6" >
+
+    <TextView
+        android:id="@+id/pointtv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="현재 당신의 포인트는"
+        android:textColor="#99403998"
+        android:textSize="20dp"
+        android:textStyle="italic|bold"
+        android:typeface="monospace" />
+
+    <LinearLayout
+        android:id="@+id/LinearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center|right"
+        android:layout_weight="10" >
+
+        <TextView
+            android:id="@+id/pointtv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textColor="#89ff0000"
+            android:textSize="25dp"
+       	 	android:textStyle="italic|bold"
+        	android:typeface="monospace" />
+
+        <TextView
+            android:id="@+id/pointtv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="점 입니다."
+            android:textSize="20dp"
+            android:textColor="#99403998"
+       		android:textStyle="italic|bold"
+            android:typeface="monospace" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_weight="20">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#99403998"
+       		android:textStyle="italic|bold"
+       		android:textSize="16dp"
+            android:typeface="monospace"
+            android:text="@string/exp2_12" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/gift2"
+        android:layout_weight="60" />
+	<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_weight="10">
+    <Button
+        android:id="@+id/pointbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/board_buttononoff"
+        android:layout_gravity="center"
+        android:text="나가기" />
+	</LinearLayout>
+</LinearLayout>

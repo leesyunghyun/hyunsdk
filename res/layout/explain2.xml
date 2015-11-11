@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/tabhost"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/LinearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </TabWidget>
+
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#34ADD8E6" >
+
+            <LinearLayout
+                android:id="@+id/tab1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:orientation="vertical" >
+                
+                <TextView
+                    android:id="@+id/exp2tv1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="25"
+                    android:text="@string/exp2_1"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/exp2tv1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="25"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="@string/exp2_9"
+                    android:textStyle="bold"
+                    android:textColor="#90ff0000"
+                    android:typeface="monospace"
+                    android:textSize="15dp" />
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="25"
+                    android:layout_gravity="center"
+                    android:src="@drawable/gift" />
+
+                <TextView
+                    android:id="@+id/exp2tv2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="15"
+                    android:text="@string/exp2_2"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/exp2tv3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_weight="15"
+                    android:text="@string/exp2_3"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/exp2tv4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="15"
+                    android:text="@string/exp2_4"
+                    android:textSize="15dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#34ADD8E6"
+                    android:orientation="horizontal" >
+
+                    <Button
+                        android:id="@+id/exp2kakao"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="15"
+                        android:background="@drawable/board_buttononoff"
+                        android:text="  카카오톡보내기   "
+                        android:textSize="15dp" />
+
+                    <Button
+                        android:id="@+id/exp2close_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="15"
+                        android:background="@drawable/board_buttononoff"
+                        android:text=" 게임으로 돌아가기   " />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tab2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="80"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/exp2tv5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="10"
+                        android:text="@string/exp2_5"
+                        android:textColor="#bb0000ff" />
+
+                    <ImageView
+                        android:id="@+id/imageView1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="10"
+                        android:src="@drawable/email2" />
+
+                    <TextView
+                        android:id="@+id/ema_tv1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="10"
+                        android:text="받는 사람" />
+
+                    <TextView
+                        android:id="@+id/ema_tv2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="10"
+                        android:ems="10"
+                        android:text="cbfhry@naver.com" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="30"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/ema_tv3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="10"
+                            android:text="제목" />
+
+                        <EditText
+                            android:id="@+id/ema_et1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="10"
+                            android:ems="10" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="30"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/ema_tv4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="내용" />
+
+                        <EditText
+                            android:id="@+id/ema_et2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="30dp"
+                            android:ems="10"
+                            android:inputType="textMultiLine"
+                            android:lines="5" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="10"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        android:gravity="center" >
+
+                        <Button
+                            android:id="@+id/ema_bt1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/board_buttononoff"
+                            android:text="보내기" />
+
+                        <Button
+                            android:id="@+id/exp3close_btn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/board_buttononoff"
+                            android:text=" 게임으로 돌아가기   " />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+
+</TabHost>
